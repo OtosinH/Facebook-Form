@@ -1,0 +1,203 @@
+body{
+    background-color: rgb(228, 228, 229);
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    --bg-color:  rgb(255, 255, 255);
+
+}
+.genereal__content{
+    width: 25%;
+    height: 70vh;
+    position: relative;
+    margin: 50px auto;
+}
+.form__container__one{
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    position: absolute;
+    border-radius: 8px 8px 0 0;
+}
+.form__title{
+    width: 100%;
+    height: 5em;
+    position: absolute;
+    border-bottom: 1px solid rgb(90, 101, 111, .2);
+
+}
+.form__title .main__title{
+    font-size: 32px;
+    font-weight: 600;
+    position: absolute;
+    margin: 5px 0 0 15px;
+}
+.sub__title{
+    position: absolute;
+    bottom: 0;
+    font-weight: 100;
+    margin-left: 16px;
+    font-size: 15px;
+    color: #606770;
+}
+
+.section__secundary{
+    background-color:var(--bg-color);
+    width: 100%;
+    height: 59vh;
+    bottom: 0;
+    display: flex;
+    position: absolute;
+    border-radius: 0 0 8px 8px;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.first__section__inputs{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.inName, .inLastName{
+    width: 41%;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color:rgb(245, 246, 247) ;
+    border: 1px solid rgb(228, 228, 229);
+    text-align: justify;
+    
+}
+
+.inMail, .inPass{
+    width: 85%;
+    height: 30px;
+    margin: 10px 0 0 8px;
+    background-color:rgb(245, 246, 247) ;
+    border: 1px solid rgb(228, 228, 229);
+}
+.inName, .inLastName, .inMail, .inPass,:active{
+    outline: none;
+}
+
+.day{
+    display: flex;
+    position: absolute;
+    margin-top: 160px;
+    left: 30px;
+    width: 8em;
+    height: 2.5em;
+    flex-direction: row;
+    border: 1px solid rgb(228, 228, 229);
+    border-radius: 4px;
+
+
+}
+.month{
+    display: flex;
+    position: absolute;
+    margin-top: 160px;
+    left: 149px;
+    width: 8em;
+    height: 2.5em;
+    border: 1px solid rgb(228, 228, 229);
+    border-radius: 4px;
+
+
+}
+
+.year{
+    display: flex;
+    position: absolute;
+    margin-top: 160px;
+    right: 25px;
+    width: 8em;
+    height: 2.5em;
+    border: 1px solid rgb(228, 228, 229);
+    border-radius: 4px;
+
+}
+.day, .month, .year,:focus{
+    outline: none;
+}
+.sex__men, .sex__women, .sex__other{
+    display: flex;
+    margin-top: 220px;
+    border: 1px solid rgb(228, 228, 229);
+    position: absolute;
+    align-items: center;border-radius: 8px;
+    
+
+   
+}
+
+.sex__women{
+    left: 30px;
+    width: 5.5em;
+    height: 2em;
+}
+
+.sex__other{
+    right: 25px;
+    height: 2em;
+    width: 7.9em;
+
+}
+
+.sex__men{
+    width: 6.1em;
+    height: 2em;
+    right: 165px;
+
+}
+.men, .women, .other{
+    font-size: 15px;
+    padding-left: 9px;
+}
+.radio{
+    display: flex;
+    position: absolute;
+    right: 4px;
+    bottom: 9px;
+
+}
+.register{
+    display: flex;
+    position: absolute;
+    bottom: 150px;
+    width: 150px;
+    height: 2.5em;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 211, 9);
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.register:focus{
+    outline: none;
+}
+.register:hover{
+    background-color: rgb(7, 183, 13);
+}
+
+.selecct__day, .selecct__sex{
+    display: block;
+    font-size: 10px;
+    color: #606770;
+    display: flex;
+    position: absolute;
+    left: 30px;
+    margin-top: 140px;
+}
+.selecct__sex{
+    margin-top: 205px;
+    left: 32px;
+}
